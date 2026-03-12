@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'f7cab9e3'; // Replace with your actual OMDb API key
+const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 const BASE_URL = 'http://www.omdbapi.com/';
 
 // Create axios instance with default config
